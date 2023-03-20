@@ -26,7 +26,7 @@ get_header();
 
         <!-- <input type="text" id="city" /> -->
         <button class="get-started button" id="city-search" type="button">
-          <a href="rentals.html" target="_blank" class="button-rentals"
+          <a href="rentals.php" target="_blank" class="button-rentals"
             >Rent your First Drive</a
           >
         </button>
@@ -84,7 +84,7 @@ get_header();
         </div>
         <div class="second-sec-card">
           <div class="image-icon color-4">
-            <img class="icon" src=".<?php echo (get_template_directory_uri().'/assets/images/rectangles/rocket-3429 1.png')?>" />
+            <img class="icon" src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/rocket-3429 1.png')?>" />
           </div>
           <div>
             <h6>Best in the Market</h6>

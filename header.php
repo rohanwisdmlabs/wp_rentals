@@ -36,8 +36,6 @@
       href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <title>Html/Css Assignment</title>
   </head>
   <body>
