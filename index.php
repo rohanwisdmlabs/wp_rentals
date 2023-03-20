@@ -33,7 +33,7 @@ get_header();
       </div>
       <div class="first-section-image">
         <div>
-          <img class="img1" src=".\logos\rectangles\cycling.jpg" />
+          <img class="img1" src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/cycling.jpg')?>" />
         </div>
       </div>
     </section>
@@ -45,7 +45,7 @@ get_header();
       <div class="card-carousel">
         <div class="second-sec-card">
           <div class="image-icon color-1">
-            <img class="icon" src=".\logos\rectangles\website-4943 1.png" />
+            <img class="icon" src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/website-4943 1.png')?>" />
           </div>
           <div>
             <h6>Exclusive Designs</h6>
@@ -57,7 +57,7 @@ get_header();
         </div>
         <div class="second-sec-card">
           <div class="image-icon color-2">
-            <img class="icon" src=".\logos\rectangles\computer-6823 1.png" />
+            <img class="icon" src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/computer-6823 1.png')?>" />
           </div>
           <div>
             <h6>Ease to Access</h6>
@@ -71,7 +71,7 @@ get_header();
           <div class="image-icon color-3">
             <img
               class="icon"
-              src=".\logos\rectangles\mobile-phone-1164 1.png"
+              src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/mobile-phone-1164 1.png')?>"
             />
           </div>
           <div>
@@ -84,7 +84,7 @@ get_header();
         </div>
         <div class="second-sec-card">
           <div class="image-icon color-4">
-            <img class="icon" src=".\logos\rectangles\rocket-3429 1.png" />
+            <img class="icon" src=".<?php echo (get_template_directory_uri().'/assets/images/rectangles/rocket-3429 1.png')?>" />
           </div>
           <div>
             <h6>Best in the Market</h6>
@@ -100,7 +100,7 @@ get_header();
       <div class="third-section-image">
         <div class="circle"></div>
         <!-- <img class="yellow-color" src=".\logos\rectangles\Vector 9.png" /> -->
-        <img class="mask-group" src=".\logos\rectangles\cycling2.jpg" />
+        <img class="mask-group" src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/cycling2.jpg')?>" />
       </div>
       <div class="about-us">
         <h1>Ride or Die</h1>
@@ -139,7 +139,7 @@ get_header();
           <div class="ui-images">
             <div class="ui-one-container">
               <img
-                src="./logos/rectangles/cycling3.jpg"
+                src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/cycling3.jpg')?>"
                 alt=""
                 class="ui-one"
               />
@@ -161,7 +161,7 @@ get_header();
           <div class="ui-images">
             <div class="ui-one-container">
               <img
-                src="./logos/rectangles/cycling4.jpg"
+                src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/cycling4.jpg')?>"
                 alt=""
                 class="ui-one"
               />
@@ -179,7 +179,7 @@ get_header();
           <div class="ui-images">
             <div class="ui-one-container">
               <img
-                src="./logos/rectangles/cycling5.jpg"
+                src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/cycling5.jpg')?>"
                 alt=""
                 class="ui-one"
               />
@@ -197,7 +197,7 @@ get_header();
           <div class="ui-images">
             <div class="ui-one-container">
               <img
-                src="./logos/rectangles/cycling2.jpg"
+                src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/cycling2.jpg')?>"
                 alt=""
                 class="ui-one"
               />
@@ -227,7 +227,7 @@ get_header();
       </div>
       <div class="info-Card">
         <div class="card">
-          <img src=".\logos\rectangles\19399522241579780463 1.png" />
+          <img src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/19399522241579780463 1.png')?>" />
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
@@ -237,7 +237,7 @@ get_header();
           <p>- UI Soup</p>
         </div>
         <div class="card">
-          <img src=".\logos\rectangles\19399522241579780463 1.png" />
+          <img src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/19399522241579780463 1.png')?>" />
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
@@ -258,5 +258,5 @@ get_header();
 
 
 <?php
-get_sidebar();
+
 get_footer();

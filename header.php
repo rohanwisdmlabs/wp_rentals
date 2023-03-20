@@ -56,21 +56,21 @@
           <a href="https://www.instagram.com/"
             ><img
               class="logo-img"
-              src=".\logos\12967496761553233092 (1) 2.png"
+              src="<?php echo (get_template_directory_uri().'/assets/images/12967496761553233092 (1) 2.png')?>"
               width="15px"
               height="15px"
           /></a>
           <a href="https://www.linkedin.com/login"
             ><img
               class="logo-img"
-              src=".\logos\14459920111530103316 2.png"
+              src="<?php echo (get_template_directory_uri().'/assets/images/14459920111530103316 2.png')?>"
               width="15px"
               height="15px"
           /></a>
           <a href="https://www.facebook.com/"
             ><img
               class="logo-img"
-              src=".\logos\16304616191553750378 2.png"
+              src="<?php echo (get_template_directory_uri().'/assets/images/16304616191553750378 2.png')?>"
               width="15px"
               height="15px"
           /></a>

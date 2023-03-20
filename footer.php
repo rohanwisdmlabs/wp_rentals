@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="map-image">
-        <img class="map-photo" src=".\logos\rectangles\Rectangle 42.png" />
+        <img class="map-photo" src="<?php echo (get_template_directory_uri().'/assets/images/rectangles/Rectangle 42.png')?>" />
 
         <div class="map-info">
           <p>Texas</p>
@@ -35,16 +35,7 @@
         </div>
       </div>
     </section>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="./script.js"></script>
+   
 <?php wp_footer(); ?>
 
 </body>
